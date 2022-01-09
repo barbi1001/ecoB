@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rekamots",
+  "info": {
+    "singularName": "rekamot",
+    "pluralName": "rekamots",
+    "displayName": "rekamot",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "teur": {
+      "type": "string"
+    }
+  }
+}
